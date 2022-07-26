@@ -1,0 +1,382 @@
+.Banner1{
+    width: 1390px;
+    height: 72px;
+    display:inline-flex ;
+    background-color: rgb(26, 24, 24);
+    margin:  25px; ;
+    margin-top: 50px;
+    
+}
+
+.Banner1 p{
+    font-family: 'Inter' ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+   margin-left: 100px;
+   }
+
+.Banner1 a{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #41d291;
+    margin-left: 38px;
+    margin-bottom: 26px;
+    margin-top: 26px;
+    text-transform: capitalize;
+   
+   }
+.Banner1 button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #4ad295;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+    height: 40px;
+    text-transform: capitalize;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.Banner2{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 1390px;
+    background-color: black;
+    margin: 25px;   
+    
+}
+.img1{
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+   width: 20px;
+   height: 20px;
+   margin-top:13px ;
+   margin-left: 340px;
+    
+}
+
+.Banner2 p{
+   
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 13px;
+    margin-top: 17px;
+    margin-left: 10px;
+    
+    
+    
+   }
+.Banner2 button{
+    background: black;
+    color: #FFFFFF;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+  .Banner3{
+      display: inline-flex;
+      width: 600px;
+      height: 70px;
+      margin: 25px;
+      margin-top: 50px;
+      background-color: whitesmoke;
+      border-radius: 15px;
+      box-shadow: 6px 0 5px 2px rgb(197, 185, 185);
+
+  }
+.colorB{
+    color: brown;
+}
+
+.img2 {
+    width: 30px;
+    height: 30px;
+    margin: 18px 10px 18px 16px;
+    border-radius: 8px;
+    border: solid 4px;
+    color: rgba(255, 0, 234, 0.14);
+    background-color: rgba(255, 0, 234, 0.14);
+   
+
+}
+.Banner3 p{
+    font-family: 'Inter';
+}
+.buttonDEC{
+    height: 35px;
+    width: 90px;
+    background-color: gainsboro;
+    border-radius: 8px;
+    margin-top: 17px;
+    border: none;
+    cursor: pointer;
+}
+.buttonALL {
+    height: 35px;
+    width: 90px;
+    background-color: rgb(237, 40, 122);
+    color: white;
+    border-radius: 8px;
+    margin-top: 17px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.Banner4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 70px;
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 15px;
+    margin-left: 15px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+
+}
+.Banner4 p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+}
+.pilicy {
+    color: orange;
+    text-decoration-line: underline;
+    
+}
+.Banner4 button {        
+    height: 25px;
+    width: 45px;
+    background-color: white;
+    padding-right: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.Banner5{
+    display: inline-flex;
+    flex-direction: column;
+    height: 245px; ;
+    width: 360px;
+    background-color: black;
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-left: 25px;
+    padding-left: 25px;
+    padding-top: 10px; 
+    border-radius: 8px;
+    vertical-align: auto;
+    font-family: 'roboto';
+    font-size: 14px;
+    font-style: normal;
+    
+}
+.cooks{
+    font-size: 16px;
+    font-family: 'roboto';
+    font-style: normal;
+}
+.policy{
+    text-decoration-line: underline;
+}
+.buttonAccept{
+    width: 70px;
+    height: 30px;
+    background-color: #4ad295;
+    color: #FFFFFF;
+    border-radius: 8px;
+    position: relative;
+    left: 90px;
+    border: none;
+    cursor: pointer;font-family: 'roboto';
+    font-size: 14px;
+    font-style: normal;
+    
+}
+
+.Banner6{
+    width: 340px;
+    height: 200px;
+    background-color: #FFFFFF;
+    display: inline-flex;
+    position: relative;
+    left: 20px;
+    border-radius: 15px;
+    vertical-align: 10px;
+    flex-direction: column;
+    box-shadow: 6px 0 5px 2px rgb(197, 185, 185);
+    font-size: 14px;
+    font-family: 'roboto';
+    font-style: normal;
+}
+.cook{
+    font-family: 'roboto';
+    font-size: 16px;
+}
+.Banner6 h4 {
+    padding-left: 15px;
+
+}
+
+.Banner6 p {
+    padding-left: 15px;
+  
+}
+.d1a {
+    display: inline-block;
+    
+}
+.Manage {
+    background-color: aliceblue;
+    height: 30px;
+    width: 130px;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    left: 20px;
+    font-style: normal;
+    font-size: 14px;
+    font-family: 'roboto';
+    margin-bottom: 15px;
+}
+
+.Acce{
+     background-color: #4ad295;
+        height: 30px;
+        width: 130px;
+        border-radius: 6px;
+        display: inline-block;
+        cursor: pointer;
+        border: none;
+        position: relative;
+        left: 20px;
+        margin-left: 25px;
+        font-style: normal;
+        font-size: 14px;
+        font-family: 'roboto';
+}
+
+.Banner7{
+   
+    height: 240px;
+    width: 300px;
+    border-radius: 18px;
+    text-align: center;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    margin-top: 40px    ;
+    margin-left: 25px;
+    margin-right:35px;
+    box-shadow: 6px 0 5px 2px rgb(197, 185, 185);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+}
+
+
+.Banner7 button{
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 110px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'inter';
+    font-style: normal;
+}
+.paragraf{
+    font-size: 22px;
+    font-family: 'coda caption';
+    font-style: normal;
+}
+
+.Banner8 {
+    
+    width: 300px;
+    height: 140px;
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 15px;
+    margin-top: 40px;
+    margin-left: 25px;
+    box-shadow: 6px 0 5px 2px rgb(197, 185, 185);
+
+}
+.Banner8 p{
+    font-size: 14px;
+    font-family: 'inter';
+    font-style: normal;
+}
+.Privecy {
+    display: inline-block;
+    color: blue;
+    cursor: pointer;
+}
+.Banner8 button {
+    display: inline-flex;
+    position: relative;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    left: 110px;
+    width: 65px;
+    height: 27px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+    font-size: 14px;
+    font-family: 'inter';
+    font-style: normal;
+}
+.Banner78 {
+    display: inline-flex;
+    position: relative;
+    flex-direction: row;
+}
